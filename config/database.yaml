@@ -1,0 +1,23 @@
+development:
+  host: "localhost"
+  port: 5432
+  database: "youtube_analytics_dev"
+  username: "dev_user"
+  password: "dev_password"
+  pool_size: 10
+
+production:
+  host: "localhost"
+  port: 5432
+  database: "youtube_analytics"
+  username: "youtube_user"
+  password: "production_password"
+  pool_size: 20
+
+testing:
+  host: "localhost"
+  port: 5432
+  database: "youtube_analytics_test"
+  username: "test_user"
+  password: "test_password"
+  pool_size: 5

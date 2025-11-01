@@ -1,0 +1,25 @@
+{
+  "channels": [
+    {
+      "channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "channel_name": "Google Developers",
+      "active": true,
+      "update_frequency": 3600,
+      "collect_comments": true,
+      "max_videos": 100
+    },
+    {
+      "channel_id": "UCBJycsmduvYEL83R_U4JriQ",
+      "channel_name": "Marques Brownlee",
+      "active": true,
+      "update_frequency": 7200,
+      "collect_comments": false,
+      "max_videos": 50
+    }
+  ],
+  "search_queries": [
+    "python tutorial",
+    "data science",
+    "machine learning"
+  ]
+}

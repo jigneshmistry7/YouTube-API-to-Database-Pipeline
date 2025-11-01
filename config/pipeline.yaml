@@ -1,0 +1,30 @@
+pipeline:
+  name: "youtube-data-pipeline"
+  version: "1.0.0"
+  
+extraction:
+  batch_size: 50
+  max_retries: 3
+  retry_delay: 60
+  timeout: 30
+  enable_cache: true
+  cache_ttl: 3600
+
+processing:
+  enable_sentiment_analysis: false
+  calculate_engagement_rate: true
+  detect_anomalies: true
+  clean_html_tags: true
+  normalize_text: true
+  
+storage:
+  database_type: "postgresql"
+  keep_raw_data: false
+  backup_frequency: "daily"
+  retention_days: 365
+  
+monitoring:
+  log_level: "INFO"
+  enable_health_checks: true
+  metrics_port: 9090
+  alert_channels: ["log"]
